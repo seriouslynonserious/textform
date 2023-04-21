@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('bgg.jpg');
+    height:auto;
+    max-width:100%;
+    
+    
+}
+.box{
+    width: auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.box-button{
+    width:100%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    
+    font-size: 18px;
+    border-radius: 20px;
+}
+.box-button:hover{
+    cursor: pointer;
+    background: #16b9d6;
+
+}
